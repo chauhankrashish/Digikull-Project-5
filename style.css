@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav,.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    padding: 50px 0 50px 5%;
+}
+.nav-items{
+    gap: 75px;
+}
+.active-item{
+    color: #fe5e35;
+}
+.nav-item{
+    cursor: pointer;
+    font-size: 20px;
+}
+.nav-item:hover{
+    color: #fe5e35;
+    font-weight: 700;
+}
+
+
+/* ************ intro section *********** */
+.intro-section{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    width: 50%;
+}
+.left-section h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.left-section p{
+    padding: 30px 30px 30px 0;
+    font-size: 13px;
+    color: #d5d5d5;
+}
+.action-btns .action-btn{
+    margin-right: 25px;
+}
+
+.left-section .sub-headlines{
+    padding-left: 10%;
+}
+
+.left-section h3 img{
+    width: 50px;
+}
+.left-section h1{
+    font-size: 54px;
+    font-weight: bold;
+    font-family: Passion One;
+    padding: 25px 0;
+}
+.sub-headlines h5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.sub-headline img{
+    background: #fe5e35;
+    border-radius: 50%;
+}
+button{
+    padding: 15px 30px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background: #fe5e35;
+    color: #ffffff;
+}
+
+/* ***************** right section *********************** */
+.right-section{
+    position: relative;
+    width: 50%;
+}
+.headphone-div img:last-child{
+    position: absolute;
+    top: -40px;
+    left: 90px;
+    z-index: -99999;
+    height: 369px;
+}
+.headphone-div img:first-child{
+    position: absolute;
+    top: 160px;
+    left: 46px;
+    height: 125px;
+}
+.discount-content{
+    position: absolute;
+    top: 194px;
+    left: 80px;
+    text-align: center;
+}
+.discount-content h4{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+}
+.discount-content h1{
+    color: #ffffff;
+    font-weight: 800;
+    font-family: unset;
+    line-height: 25px;
+}
+.dots{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    left: 38%;
+    bottom: 15%;
+}
+.yellow-dot,.tomato-dot,.black-dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.yellow-dot{
+    background-color: #ffff00;
+}
+.tomato-dot{
+    background-color: #ff6347;
+}
+.black-dot{
+    background-color: #000000;
+}
+.right-section .action-btn{
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
